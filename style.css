@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+html {
+  font-size: 16px;
+}
+
+.main-card {
+  height: 70vh;
+  width: 70vw;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  padding: 1rem;
+}
+
+.restart-button {
+  width: 5.5rem;
+  height: 2.5rem;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.counting {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.number-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 7rem;
+  height: 7rem;
+  background-color: grey;
+  font-size: 50px;
+}
+
+.head-one {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.head-two {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.number-entry {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.check-one {
+  padding-left: 2.5rem;
+  width: 9rem;
+  height: 5rem;
+  font-weight: 400;
+  font-size: 50px;
+}
+
+.check-two {
+  margin-top: 1rem;
+  width: 5.5rem;
+  height: 2.5rem;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.score {
+  font-weight: 400;
+  font-size: 20px;
+}
